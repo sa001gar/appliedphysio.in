@@ -300,7 +300,7 @@ const BookNow = ({ isOpen, onClose, defaultService }: BookNowProps) => {
                             value={formData.phone}
                             onChange={handleChange}
                             required
-                            placeholder="+91 98081 63749"
+                            placeholder="+91 98001 63749"
                             className="w-full pl-10 pr-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-green-500 focus:border-green-500 hover:border-green-400 transition-all duration-200 outline-none font-medium"
                           />
                           <div className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 group-focus-within:text-green-500 transition-colors">

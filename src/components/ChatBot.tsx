@@ -50,12 +50,12 @@ export const locations = [
     id: 'main-clinic',
     name: 'Main Clinic - Benachity',
     address: '5D/23, SNP, Benachity, Near 54ft Road, Durgapur',
-    phone: '+91 98081 63749'
+    phone: '+91 98001 63749'
   },
   {
     id: 'branch-office',
-    name: 'Branch Office - Near NIT',
-    address: 'Bala Medicine Center, 54ft Road, Near NIT Durgapur',
+    name: 'Branch Office - 54ft Clinic',
+    address: 'BEX-13, V.S. Pally, Rajmahal Road, Benachity, Durgapur - 713213',
     phone: '+91 95635 91505'
   }
 ];
@@ -441,7 +441,7 @@ const ChatBot = () => {
         throw new Error('Submission failed');
       }
     } catch (error) {
-      const errorMessage = "I apologize, but there was an error booking your appointment. Please try again or contact us directly at +91 98081 63749.";
+      const errorMessage = "I apologize, but there was an error booking your appointment. Please try again or contact us directly at +91 98001 63749 or +91 95635 91505.";
       setMessages(prev => [...prev, {
         role: 'assistant',
         content: errorMessage

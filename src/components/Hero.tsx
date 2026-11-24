@@ -74,7 +74,7 @@ const Hero = () => {
                 <span>Book Appointment</span>
               </button>
               <a
-                href="tel:+919808163749"
+                href="tel:+919800163749"
                 className="px-7 py-3.5 text-green-700 border border-green-600/40 hover:border-green-600 hover:bg-green-50/20 rounded-lg transition-all duration-300 font-bold flex items-center space-x-2 transform hover:-translate-y-0.5"
               >
                 <PhoneCall className="w-4 h-4 text-green-600" />
@@ -106,7 +106,7 @@ const Hero = () => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-xl border border-gray-100">
               <img
-                src="/images/hero_physiotherapy_session.png"
+                src="/images/hero_physiotherapy_session.webp"
                 alt="Physiotherapy treatment session"
                 className="w-full h-auto object-cover"
                 onError={(e) => {

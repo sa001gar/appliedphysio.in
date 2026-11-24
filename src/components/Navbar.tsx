@@ -188,14 +188,14 @@ const Navbar = () => {
           {/* Book Now & Call action */}
           <div className="hidden lg:flex flex-row gap-3 items-center">
             <a
-              href="tel:+919808163749"
+              href="tel:+919800163749"
               className={`px-5 py-2.5 border rounded-lg transition-all duration-300 font-bold flex items-center space-x-2 transform hover:-translate-y-0.5 text-base ${useLightText
                 ? 'text-white border-white/30 hover:border-emerald-300 hover:bg-white/10'
                 : 'text-green-700 border-green-600/40 hover:border-green-600 hover:bg-green-50/20'
                 }`}
             >
               <Phone className={`w-3.5 h-3.5 transition-colors ${useLightText ? 'text-emerald-300' : 'text-green-600'}`} />
-              <span>+91 98081 63749</span>
+              <span>+91 98001 63749</span>
             </a>
             <button
               onClick={() => setShowBooking(true)}
@@ -295,11 +295,11 @@ const Navbar = () => {
               Book Appointment
             </button>
             <a
-              href="tel:+919808163749"
+              href="tel:+919800163749"
               className="flex items-center justify-center w-full py-3 text-green-700 border border-green-600/40 hover:border-green-600 hover:bg-green-50/20 rounded-lg transition-all duration-300 font-bold gap-2 text-base"
             >
               <Phone className="w-4 h-4 text-green-600" />
-              <span>+91 98081 63749</span>
+              <span>+91 98001 63749</span>
             </a>
           </div>
         </div>

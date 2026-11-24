@@ -409,7 +409,7 @@ const Contact = () => {
                   <div>
                     <h4 className="text-base font-semibold text-[#042014] leading-tight">54ft Clinic</h4>
                     <p className="text-sm text-gray-500 mt-1 leading-normal">
-                      Bala Medicine Center, 54ft Road, Near NIT Durgapur
+                      BEX-13, V.S. Pally, Rajmahal Road, Benachity, Durgapur - 713213
                     </p>
                   </div>
                 </div>
@@ -436,7 +436,7 @@ const Contact = () => {
               <div className="space-y-4">
 
                 <a
-                  href="tel:+919808163749"
+                  href="tel:+919800163749"
                   className="flex items-center space-x-4 bg-white hover:bg-emerald-50/50 border border-[#042014]/5 rounded-2xl p-4 transition-all duration-300 group"
                 >
                   <div className="w-10 h-10 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100 flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
@@ -444,7 +444,20 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-xs uppercase tracking-wider font-semibold text-gray-400">Call Phone Support</p>
-                    <p className="text-base font-semibold text-[#042014] mt-0.5">+91 98081 63749</p>
+                    <p className="text-base font-semibold text-[#042014] mt-0.5">+91 98001 63749</p>
+                  </div>
+                </a>
+
+                <a
+                  href="tel:+919563591505"
+                  className="flex items-center space-x-4 bg-white hover:bg-emerald-50/50 border border-[#042014]/5 rounded-2xl p-4 transition-all duration-300 group"
+                >
+                  <div className="w-10 h-10 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100 flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
+                    <Phone className="w-4.5 h-4.5" />
+                  </div>
+                  <div>
+                    <p className="text-xs uppercase tracking-wider font-semibold text-gray-400">Alternate Support</p>
+                    <p className="text-base font-semibold text-[#042014] mt-0.5">+91 95635 91505</p>
                   </div>
                 </a>
 
